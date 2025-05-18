@@ -159,7 +159,7 @@ function IceHub.CreateMain()
     -- Primeiro resetar todas as abas para branco
     for i,v in pairs(TabContainer.ScrollingFrame:GetChildren()) do
         if v:IsA("TextButton") then
-            v.TextColor3 = Color3.fromRGB(0, 255, 255)
+            v.TextColor3 = Color3.fromRGB(255, 255, 255)
         end
     end
     -- Depois definir apenas a aba Menu como vermelha
