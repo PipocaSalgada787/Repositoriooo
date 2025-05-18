@@ -218,14 +218,6 @@ end)
 	UICorner_6.CornerRadius = UDim.new(0, 4)
 	UICorner_6.Parent = Discord
 
-	IcyImage.Name = "IcyImage"
-	IcyImage.Parent = MenuPage
-	IcyImage.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-	IcyImage.BorderColor3 = Color3.fromRGB(20, 20, 20)
-	IcyImage.Position = UDim2.new(0.0249417536, 0, 0.0123815509, 0)
-	IcyImage.Size = UDim2.new(0, 91, 0, 91)
-	IcyImage.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=4432430525&width=420&height=420&format=png"
-
 	UICorner_7.CornerRadius = UDim.new(0, 4)
 	UICorner_7.Parent = IcyImage
 	
@@ -460,7 +452,7 @@ end)
 	Title.Size = UDim2.new(0, 200, 0, 15)
 	Title.Font = Enum.Font.Gotham
 	Title.Text = ""..GameTitle
-	Title.TextColor3 = Color3.fromRGB(255, 0, 0)
+	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Title.TextSize = 12.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -595,8 +587,8 @@ end)
 
 	TimerBar_2.Name = "TimerBar"
 	TimerBar_2.Parent = ImageNotify
-	TimerBar_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-	TimerBar_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+	TimerBar_2.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+	TimerBar_2.BorderColor3 = Color3.fromRGB(0, 255, 255)
 	TimerBar_2.Position = UDim2.new(0, 0, 0.972999692, 0)
 	TimerBar_2.Size = UDim2.new(0, 225, 0, 2)
 
@@ -717,7 +709,7 @@ end
 					v.TextColor3 = Color3.fromRGB(255, 255, 255)
 				end
 			end
-			TemplateTab.TextColor3 = Color3.fromRGB(255, 0, 0)
+			TemplateTab.TextColor3 = Color3.fromRGB(0, 255, 255)
 		end)
 
 		local Sections = {}
