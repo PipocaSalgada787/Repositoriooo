@@ -3,7 +3,7 @@
 
 local IceHub = {}
 local Options = {
-    BrookhavenTitle = "Ice Hub",
+    BrookhavenTitle = "Cartola Hub - Brookhaven",
     TitleColor = Color3.fromRGB(255, 255, 255),
     LabelColor = Color3.fromRGB(0, 255, 255),
     Owners = {"Shelby"},
