@@ -4,7 +4,7 @@
 local IceHub = {}
 local Options = {
     BrookhavenTitle = "Ice Hub",
-    TitleColor = Color3.fromRGB(255, 0, 0),
+    TitleColor = Color3.fromRGB(255, 255, 255),
     LabelColor = Color3.fromRGB(0, 255, 255),
     Owners = {"Shelby"},
     Discord1 = "https://discord.gg/example1",
@@ -159,11 +159,11 @@ function IceHub.CreateMain()
     -- Primeiro resetar todas as abas para branco
     for i,v in pairs(TabContainer.ScrollingFrame:GetChildren()) do
         if v:IsA("TextButton") then
-            v.TextColor3 = Color3.fromRGB(255, 255, 255)
+            v.TextColor3 = Color3.fromRGB(0, 255, 255)
         end
     end
     -- Depois definir apenas a aba Menu como vermelha
-    Menu.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Menu.TextColor3 = Color3.fromRGB(0, 255, 255)
     
     for i,v in pairs(FrameContainer:GetChildren()) do
         if v:IsA("ScrollingFrame") then
