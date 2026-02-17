@@ -4454,7 +4454,7 @@ end
 AutoFruitsSystem()
 
 local HOP_TIME = 14
-local GITHUB_SCRIPT = "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/script.lua"
+local GITHUB_SCRIPT = "https://raw.githubusercontent.com/PipocaSalgada787/Repositoriooo/refs/heads/main/Fruit%20Hop%20top.txt"
 
 local Players = game:GetService("Players")
 local TeleportService = game:GetService("TeleportService")
@@ -4606,5 +4606,6 @@ end
 for _,v in ipairs(Workspace:GetDescendants()) do
 	simplify(v)
 end
+
 
 Workspace.DescendantAdded:Connect(simplify)
